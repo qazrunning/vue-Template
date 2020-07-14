@@ -3,7 +3,8 @@ import Qs from 'qs'
 
 import dataList from './data/dataList'
 import dataList1 from './data/dataList1'
-const mocks = [...dataList, ...dataList1]
+import getNewTable from './data/newTable'
+const mocks = [...dataList, ...dataList1, ...getNewTable]
 
 // for front mock
 // please use it cautiously, it will redefine XMLHttpRequest,

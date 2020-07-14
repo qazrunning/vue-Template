@@ -34,7 +34,7 @@ export default {
     height: calc(100% - 48px - 40px);
     display: flex;
     background-color: #fff;
-    margin: 20px;
+    margin: 1px;
   }
 }
 </style>

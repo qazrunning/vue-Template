@@ -22,6 +22,23 @@
           "icon": "el-icon-date"
         }
       ]
+    },
+    {
+      "title": "学习",
+      "icon": "el-icon-date",
+      "name": "new",
+      "children": [
+        {
+          "title": "学习表单",
+          "name": "newForm",
+          "icon": "el-icon-date"
+        },
+        {
+          "title": "学习表格",
+          "name": "newTables",
+          "icon": "el-icon-date"
+        }
+      ]
     }
   ]
 }

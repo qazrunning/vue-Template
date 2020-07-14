@@ -11,7 +11,7 @@ export default {
   components: { TablePage },
   data() {
     return {
-      data: [{ name: '昌荣', value: new Date(), rate: 2 }],
+      data: [{ name: 'nihao', value: new Date(), rate: 2 }],
       columns: [
         {
           label: '头像',

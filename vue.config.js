@@ -3,7 +3,7 @@ const CompressionPlugin = require('compression-webpack-plugin')
 
 module.exports = {
   productionSourceMap: false,
-  publicPath: process.env.NODE_ENV === 'production' ? '/md-core-template/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-template/' : '/',
   pages: {
     // 多页面入口
     index: {
@@ -22,6 +22,7 @@ module.exports = {
     //     }
     //   }
     // },
+    port: 6060,
     before: require('./mock/mockServer.js')
   },
   configureWebpack: config => {
