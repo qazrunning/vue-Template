@@ -1,0 +1,13 @@
+/**
+* 样式文件
+* Created by ChangRon 2020/03/16
+ */
+@import 'mixins';
+@import 'variables';
+
+// 表头背景颜色重置
+.el-table__header-wrapper {
+  tr,th {
+    background-color: $--bg-color-container !important;
+  }
+}

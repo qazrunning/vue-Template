@@ -1,0 +1,35 @@
+/**
+* 定义项目的样式变量
+* 根据设计规范修改
+* 规则 $--{type}-{name}: value
+* Created by ChangRon 2020/03/16
+ */
+
+/* 颜色 */
+$--color-primary: #409eff;
+$--color-success: #67c23a;
+$--color-warning: #e6a23c;
+$--color-danger: #f56c6c;
+$--color-info: #909399;
+$--color-dark: #313848;
+$--color-light: #fff;
+
+$--bg-color-basic: #f4f7fa; // 全局背景色
+$--bg-color-container: #f0f2f5; // 小模块背景色
+$--bg-color-main: #fff; // 主展示区颜色
+
+$--color-border: #dcdfe6; // 边框颜色
+
+/* 字体 */
+$--font-size-title: 20px; // 主标题
+$--font-size-text: 14px; // 系统字体
+$--font-size-small: 12px; // 小号字体
+
+/* 边框 */
+$--border-basic: 1px solid $--color-border; // 普通border
+
+:export {
+  theme: $--color-primary;
+  dark: $--color-dark;
+  light: $--color-light;
+}
