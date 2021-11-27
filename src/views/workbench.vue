@@ -22,7 +22,7 @@
         </el-card>
         <el-card style="margin-top: 20px">
           <div slot="header" class="clearfix">
-            <span>进行中项目</span>
+            <span>进行中项目 wo jiu xiangkankan nengbuneng shangchuang</span>
             <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
           </div>
           <el-card v-for="i in 6" shadow="hover" :key="i">
